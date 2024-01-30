@@ -1,0 +1,15 @@
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/9/9_lucas_12.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/9/9_lucas_48.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/9/9_theo_28.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/9/9_theo_16.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/0/0_lucas_9.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/7/7_lucas_7.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/7/7_lucas_24.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/7/7_theo_36.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/7/7_lucas_28.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/7/7_lucas_29.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/8/8_lucas_0.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/4/4_lucas_47.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/3/3_lucas_9.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/3/3_lucas_7.wav
+/Users/laura/git/audio-mnist/PyTeen_CNN/data/audio/fsdd/2/2_lucas_49.wav
