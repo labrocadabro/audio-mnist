@@ -38,10 +38,10 @@ def spectrogram_image(audio_file):
         n_mels=config["n_mels"],
         n_fft=config["n_fft"],
         hop_length=config["hop_length"],
-        fmin=config["fmin"],
-        fmax=config["fmax"],
     )
-    img_arr = scale_minmax(mels, 0, 255).astype(np.uint8)
+    mels_decibels = librosa.power_to_db(mels, ref=np.max)
+
+    img_arr = scale_minmax(mels_decibels, 0, 255).astype(np.uint8)
     img_arr = normalize_width(img_arr)
     img_arr = np.flip(img_arr, axis=0)  # put low frequencies at the bottom in image
     img_arr = 255 - img_arr  # invert. make black==more energy

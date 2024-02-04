@@ -7,14 +7,14 @@ class PyTeen(nn.Module):
     def __init__(self):
         super().__init__()
         self.layers = nn.Sequential(
-            nn.Conv2d(1, 6, 3, padding=2),
+            nn.Conv2d(1, 8, 5, padding=2),
             nn.ReLU(),
             nn.MaxPool2d(2, stride=2),
-            nn.Conv2d(6, 16, 3, padding=0),
+            nn.Conv2d(8, 16, 5),
             nn.ReLU(),
             nn.MaxPool2d(2, stride=2),
             nn.Flatten(),
-            nn.Linear(2480, 120),
+            nn.Linear(1152, 120),
             nn.ReLU(),
             nn.Linear(120, 84),
             nn.ReLU(),
@@ -35,7 +35,7 @@ class PyTeen(nn.Module):
 def predict(img):
     network = PyTeen()
 
-    network.load_state_dict(torch.load("py_teen_augmented.pth"))
+    network.load_state_dict(torch.load("audio_mnist_97_25.pth"))
 
     img_tf = transforms.ToTensor()
     input_img = img_tf(img).unsqueeze(0)
